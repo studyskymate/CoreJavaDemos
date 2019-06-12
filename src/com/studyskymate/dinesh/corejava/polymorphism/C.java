@@ -7,7 +7,7 @@ public class C extends P{
 	 { 
 		 return x*y; 
 	 }
-	 
+
 	public static void main(String[] args) {
 	
 	     P p = new C() ;
