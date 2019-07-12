@@ -20,6 +20,7 @@ public class CollectionEx {
 		}
 		
 		Map<Integer, String> map=new HashMap<Integer, String>();
+		
 		map.put(1, "MAP1");
 		map.put(2, "MAP2");
 		  
