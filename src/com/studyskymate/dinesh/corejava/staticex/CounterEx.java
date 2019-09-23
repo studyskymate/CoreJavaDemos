@@ -2,9 +2,10 @@ package com.studyskymate.dinesh.corejava.staticex;
 
 public class CounterEx {
 
-	static int counter=1;
+    static int counter=1;
 	
 	CounterEx(){
+		System.out.println("In Counter");
 		counter++;
 		System.out.println(counter);
 	}

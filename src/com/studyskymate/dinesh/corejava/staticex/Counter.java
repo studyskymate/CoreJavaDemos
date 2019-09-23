@@ -4,7 +4,7 @@ public class Counter {
 
 	static int counter;
 	
-	Counter(){
+   Counter(){
 		counter++;	
 	}
 	public static void main(String[] args) {

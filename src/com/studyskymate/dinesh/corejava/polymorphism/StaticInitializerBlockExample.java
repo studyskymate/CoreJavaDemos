@@ -16,6 +16,9 @@ public class StaticInitializerBlockExample {
 		System.out.println("Static Initializer Block Called");
 	}
 
+	static {
+		System.out.println("Static block called");
+	}
 	public static void main(String[] args) {
 		StaticInitializerBlockExample sib= new StaticInitializerBlockExample();
 		//Static Initializer Block called each time when object created
