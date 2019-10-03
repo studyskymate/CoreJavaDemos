@@ -4,15 +4,9 @@ public class forEachExample {
 
 	public static void main(String[] args) {
 		
-		int arr[] = { 1, 2, 3 };
-	 
-		 for (int i=0;i<arr.length;i++) {
-			 System.out.println(arr[i]);
-		 }
-		
+		int arr[] = { 5, 6, 4 };
 		for (int i : arr) {
-			System.out.println(i);
+			System.out.print(i);
 		}
-
 	}
 }

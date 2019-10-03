@@ -2,6 +2,7 @@ package com.studyskymate.dinesh.corejava.polymorphism.copy;
 
 //Method overloading through
 public class CalculateSum {
+	
 	public static void main(String[] args) {
 		CalculateSum c = new CalculateSum();
 		//which function will call??
@@ -13,6 +14,7 @@ public class CalculateSum {
 		System.out.println("SumDouble= "+sumDouble);
 		System.out.println("Sum2= "+sum2);	
 	}
+	
 	public int sum(int number1, int number2) {
 		return number1 + number2;
 	}

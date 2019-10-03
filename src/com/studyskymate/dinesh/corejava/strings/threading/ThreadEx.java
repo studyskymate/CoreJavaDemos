@@ -18,7 +18,7 @@ public class ThreadEx extends Thread{
 		ThreadEx t1=new ThreadEx();
 		ThreadEx t2=new ThreadEx();
 		t1.start();
-		t1.join();
+		//t1.join();
 		t2.start();
 	}
 
