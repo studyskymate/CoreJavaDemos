@@ -7,26 +7,26 @@ public class CustomEx extends Exception{
 		// TODO Auto-generated constructor stub
 	}
 
-	public CustomEx(String message, Throwable cause, boolean enableSuppression, boolean writableStackTrace) {
-		super(message, cause, enableSuppression, writableStackTrace);
+	public CustomEx(String arg0, Throwable arg1, boolean arg2, boolean arg3) {
+		super(arg0, arg1, arg2, arg3);
 		// TODO Auto-generated constructor stub
 	}
 
-	public CustomEx(String message, Throwable cause) {
-		super(message, cause);
+	public CustomEx(String arg0, Throwable arg1) {
+		super(arg0, arg1);
 		// TODO Auto-generated constructor stub
 	}
 
-	public CustomEx(String message) {
-		super(message);
+	public CustomEx(String arg0) {
+		super(arg0);
 		// TODO Auto-generated constructor stub
 	}
 
-	public CustomEx(Throwable cause) {
-		super(cause);
+	public CustomEx(Throwable arg0) {
+		super(arg0);
 		// TODO Auto-generated constructor stub
 	}
 
-
+	
 
 }

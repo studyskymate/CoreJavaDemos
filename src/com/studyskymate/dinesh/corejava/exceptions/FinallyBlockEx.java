@@ -7,8 +7,12 @@ public class FinallyBlockEx {
 		try {
 			String name = null;
 			name = name.trim();
+			
 		} catch (NullPointerException ex) {
-			System.out.println(ex);
+			System.out.println("NullPointerException");
+			
+		}catch (Exception ex) {
+			System.out.println("Exception");
 		} finally {
 			System.out.println("Finally Block");
 		}
