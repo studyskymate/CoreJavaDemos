@@ -7,7 +7,6 @@ public class Student {
 		this.name=name;
 		this.address=address;
 	}
-	
 	 int id;
 	 String name;
 	 Address address;

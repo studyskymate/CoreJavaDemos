@@ -4,7 +4,6 @@ public class SwitchExample {
 
 	public static void main(String... aa) {
 		String grade="A";
-		
 		switch(grade){    
 		case "A":    
 		 System.out.println("mARKS BETWEEN 90 AND 100");
