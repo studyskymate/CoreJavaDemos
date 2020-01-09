@@ -29,6 +29,9 @@ public class JavaStreams {
     	 
     	Stream<Integer> stream  = Stream.of(10,20,30);
     	stream.forEach(p->System.out.print(p));
+    	
+    	Stream<Integer> stream1  = Stream.of(new Integer[] {10,20,30});
+    	stream1.forEach(p->System.out.print(" "+p));
 	
 	}
 
