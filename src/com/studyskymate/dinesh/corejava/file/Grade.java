@@ -15,9 +15,7 @@ public class Grade {
 			br = new BufferedReader(new FileReader("D:\\marks.txt"));
 
 			while ((strLine = br.readLine()) != null) {
-				
-				
-               float a=Float.valueOf(strLine);
+                 float a=Float.valueOf(strLine);
              
               // System.out.println(a);
                      /*  A+ >= 85%,

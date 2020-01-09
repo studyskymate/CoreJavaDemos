@@ -6,7 +6,7 @@ public class FinalEx {
 	
 	public static void main(String[] args) {
 		FinalEx o=new FinalEx();
-	//	o.MAX_MARKS=200;
+	 	//o.MAX_MARKS=200;
 		System.out.println(o.MAX_MARKS);
 
 	}

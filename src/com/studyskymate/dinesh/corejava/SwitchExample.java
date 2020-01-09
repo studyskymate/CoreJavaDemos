@@ -3,7 +3,7 @@ package com.studyskymate.dinesh.corejava;
 public class SwitchExample {
 
 	public static void main(String... aa) {
-		String grade="A";
+		String grade="";
 		
 		switch(grade){    
 		case "A":    

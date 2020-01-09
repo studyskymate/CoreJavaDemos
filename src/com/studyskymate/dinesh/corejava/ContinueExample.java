@@ -6,7 +6,7 @@ public class ContinueExample {
 		
 		for(int i=1;i<=5;i++){  
 	        if(i==3){  
-	            break;//it will skip the rest statement  
+	            continue; 
 	        }  
 	        System.out.println(i);  
 	    }  
