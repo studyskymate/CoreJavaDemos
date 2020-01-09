@@ -3,8 +3,7 @@ package com.studyskymate.dinesh.corejava.java8;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-import java.util.OptionalDouble;
-import java.util.OptionalInt;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class JavaStreams {
@@ -32,6 +31,13 @@ public class JavaStreams {
     	
     	Stream<Integer> stream1  = Stream.of(new Integer[] {10,20,30});
     	stream1.forEach(p->System.out.print(" "+p));
+    	
+    	//Convert to List
+    	List l=stream.filter(p->p>10).collect(Collectors.toList());
+    	Integer[] a=stream.filter(p->p>10).toArray(Integer[]::new);
+    	
+    	
+    	
 	
 	}
 
