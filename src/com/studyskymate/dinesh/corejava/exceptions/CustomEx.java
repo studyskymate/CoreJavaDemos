@@ -11,8 +11,7 @@ public class CustomEx extends Exception{
 		super(message, cause, enableSuppression, writableStackTrace);
 		// TODO Auto-generated constructor stub
 	}
-
-	public CustomEx(String message, Throwable cause) {
+  CustomEx(String message, Throwable cause) {
 		super(message, cause);
 		// TODO Auto-generated constructor stub
 	}
