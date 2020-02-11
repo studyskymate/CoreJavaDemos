@@ -6,13 +6,9 @@ public class StaticExample1 {
 		System.out.println("constructor");
 	}
 	
-
-	
-	
-	
 	public static void main(String[] args) {
 		StaticExample1 o=new StaticExample1();
-	System.out.println("main");
+	 System.out.println("main");
 	
 	
 	}

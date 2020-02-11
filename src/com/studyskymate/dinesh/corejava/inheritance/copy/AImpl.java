@@ -9,7 +9,9 @@ public class AImpl implements A,A1{
 
 	@Override
 	public void display() {
-	System.out.println("display implemented");	
+		// TODO Auto-generated method stub
+		
 	}
+
 
 }

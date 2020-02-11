@@ -11,6 +11,7 @@ public class ExceptionEx4 {
 			System.out.println("result "+z);
 		} catch (ArithmeticException ex) {
 			System.out.println("Arithmetic ex occured");
+			System.exit(1);
 		}
 		catch (Exception ex) {
 			System.out.println("Exception occured");
