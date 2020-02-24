@@ -65,6 +65,7 @@ public class LambdaExpressionExample11 {
        joinNames.add("Kumar");
        System.out.println(joinNames.toString());
        
+       
 	}
 
 }

@@ -1,5 +1,7 @@
 package com.studyskymate.dinesh.corejava.polymorphism;
 
+import java.io.IOException;
+
 public class ChildClass extends ParentClass{
 
 
@@ -7,13 +9,20 @@ public class ChildClass extends ParentClass{
 
 	
 	public void displayChild() {
-		super.display();
+		
+			try {
+				super.display();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
 		
 		System.out.println(" DC "+super.x);
 	}
 	
-   public void display() {
-		
+   public void display() throws NullPointerException {
+		System.out.println("");
 	}
 	
 	

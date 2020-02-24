@@ -1,6 +1,8 @@
 package com.studyskymate.dinesh.corejava.polymorphism;
 
- public class ParentClass {
+import java.io.IOException;
+
+public class ParentClass {
 	int x=100;
 	
 	ParentClass(){
