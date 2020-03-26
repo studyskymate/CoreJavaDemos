@@ -1,4 +1,6 @@
-package com.studyskymate.dinesh.corejava.java8;
+package com.studyskymate.dinesh.corejava.java82;
+
+import com.studyskymate.dinesh.corejava.java8.CalCulate;
 
 public class CalCulateImpl {
 

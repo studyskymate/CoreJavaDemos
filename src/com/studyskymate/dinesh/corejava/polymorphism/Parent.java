@@ -12,5 +12,9 @@ public class Parent {
 		System.out.println("Parent Display method");
 	}
 	
+	 void displayD() {
+		System.out.println("Parent Display method");
+	}
+	
 	
 }

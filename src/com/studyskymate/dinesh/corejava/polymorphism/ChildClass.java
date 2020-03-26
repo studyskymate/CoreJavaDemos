@@ -26,6 +26,10 @@ public class ChildClass extends ParentClass{
 	}
 	
 	
+    void displayD() {
+		System.out.println("");
+	}
+   
 	public static void main(String[] args) {
 		ChildClass c= new ChildClass();
 	 c.displayChild();
