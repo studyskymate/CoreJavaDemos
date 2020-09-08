@@ -5,6 +5,7 @@ public class StaticInitializerBlockExample {
 
 	//take some variable
 	int x;
+	static int y=100;
 	
 	//Constructor
 	public StaticInitializerBlockExample() {
@@ -18,6 +19,12 @@ public class StaticInitializerBlockExample {
 
 	static {
 		System.out.println("Static block called");
+	}
+	
+	
+	public void diaplay() {
+		x=200;
+		y=100;
 	}
 	public static void main(String[] args) {
 		StaticInitializerBlockExample sib= new StaticInitializerBlockExample();

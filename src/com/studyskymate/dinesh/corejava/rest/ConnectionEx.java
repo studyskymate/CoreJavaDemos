@@ -27,7 +27,6 @@ public class ConnectionEx {
 			con.setDoOutput(true);
 			DataOutputStream out = new DataOutputStream(con.getOutputStream());
 		//	out.writeBytes(ParameterStringBuilder.getParamsString(parameters));
-			
 			out.flush();
 			out.close();
 		} catch (IOException e) {

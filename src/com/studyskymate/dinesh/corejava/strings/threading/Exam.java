@@ -6,7 +6,6 @@ public class Exam {
 		StringBuffer sb= new StringBuffer("Hello ");
 		sb.append("Java");
 		System.out.println(sb); 
-
 	}
 
 }

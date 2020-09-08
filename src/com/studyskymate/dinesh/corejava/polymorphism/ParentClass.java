@@ -8,8 +8,9 @@ package com.studyskymate.dinesh.corejava.polymorphism;
 	}
 	
 
-	 public void display() {
+	 public long display() throws Exception{
 		System.out.println("Parent");
+		return x;
 	}
 	
 	public static void main(String[] args) {

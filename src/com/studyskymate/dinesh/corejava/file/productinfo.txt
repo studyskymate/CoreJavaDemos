@@ -1,0 +1,5 @@
+Computer
+Laptop
+Camera
+Mic
+Headphone

@@ -7,13 +7,17 @@ public class ArrayProgram {
         
 	public static void main(String[] args) {
 		
-          List<String> l=new ArrayList<String>();
-          l.add("a");
-          l.add("b");
-          l.add("c");
-          l.add("d");
-          
+    int size=10;
+	int numbers[] =new int[size];
 
+	for(int i=0;i<10;i++) {
+		numbers[i]=i;
 	}
+	
+	for(int i:numbers) {
+		System.out.println(i);
+	}
+	}
+
 
 }
