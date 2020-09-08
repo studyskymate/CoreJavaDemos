@@ -11,9 +11,8 @@ public class CustomEx extends Exception{
 		super(arg0, arg1, arg2, arg3);
 		// TODO Auto-generated constructor stub
 	}
-
-	public CustomEx(String arg0, Throwable arg1) {
-		super(arg0, arg1);
+  CustomEx(String message, Throwable cause) {
+		super(message, cause);
 		// TODO Auto-generated constructor stub
 	}
 
@@ -27,6 +26,6 @@ public class CustomEx extends Exception{
 		// TODO Auto-generated constructor stub
 	}
 
-	
+
 
 }

@@ -23,7 +23,8 @@ public class NonRepeatingChar {
 			// If x is not seen so far or x is seen only once. then 
 			// repeated[x] is false 
 			boolean[] repeated = new boolean[MAX_CHAR]; 
-
+            
+			
 			// Let us consider following stream and see the process 
 			String stream = "geeksforgeeksandgeeksquizfor"; 
 			for (int i = 0; i < stream.length(); i++) { 

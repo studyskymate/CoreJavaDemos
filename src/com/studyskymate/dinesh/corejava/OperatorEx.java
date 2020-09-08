@@ -60,9 +60,7 @@ public class OperatorEx {
 			System.out.println("In else part");
 		}
 		
-		
-		
-		
+
 
 	}
 
