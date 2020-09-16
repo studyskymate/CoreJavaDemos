@@ -7,9 +7,11 @@ import java.util.List;
 public class RemoveObj {
 	public static void main(String[] args) {
 		List<Integer> numbers = new ArrayList<Integer>();
+		
 		numbers.add(11);
 		numbers.add(12);
 		numbers.add(13);
+		
 		System.out.println("1ArrayList contains : " + numbers);//1,2,3   
 		numbers.remove(new Integer(12));
 		System.out.println("2ArrayList contains : " + numbers);//1,3 

@@ -20,7 +20,8 @@ public class JavaStreams {
            //option2
          int sum=0;
          Iterator<Integer> i=list.iterator();
-
+         
+         
          while(i.hasNext()) {
         	 int x=i.next();
         	 sum=sum+x;

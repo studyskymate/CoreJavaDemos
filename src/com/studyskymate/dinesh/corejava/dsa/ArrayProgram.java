@@ -26,13 +26,7 @@ public class ArrayProgram {
 
 		Iterator<String> i = l.iterator();
 		
-<<<<<<< HEAD
-    int size=10;
-	int numbers[] =new int[size];
 
-	for(int i=0;i<10;i++) {
-		numbers[i]=i;
-=======
 		while (i.hasNext()) {
 			String a=i.next();
 			System.out.println();
@@ -64,13 +58,9 @@ public class ArrayProgram {
 	    }
        
 	
-	    
->>>>>>> a4d0a0cc2ccb7bfd1b8ec41f300c009908298b03
-	}
+
 	
-	for(int i:numbers) {
-		System.out.println(i);
-	}
+
 	}
 
 

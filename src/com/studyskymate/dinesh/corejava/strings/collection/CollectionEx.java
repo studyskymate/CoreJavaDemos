@@ -67,12 +67,10 @@ public class CollectionEx {
 			System.out.println(l);
 		}
 
-		
 		Map<Integer, String> map = new HashMap<Integer, String>();
 
 		map.put(1, "MAP1");
 		map.put(2, "MAP2");
-<<<<<<< HEAD
 
 		Iterator<Map.Entry<Integer, String>> itr = map.entrySet().iterator();
 
@@ -84,31 +82,6 @@ public class CollectionEx {
 		}
 
 		System.out.println(map.get(1));
-		// Hashtable,Queue,etc
-=======
-		
-		Iterator<Map.Entry<Integer,String>> itr=map.entrySet().iterator();
-		  
-		System.out.println("************");
-		while(itr.hasNext()) {
-			Map.Entry<Integer,String> entry=itr.next();
-			System.out.println(entry.getKey());
-			System.out.println(entry.getValue());
-		}
-		
-		/*
-		 * Iterator<Map.Entry<Integer, String>> itr =map.entrySet().iterator();
-		 * 
-		 * while(itr.hasNext()) { Map.Entry<Integer, String> entry=itr.next();
-		 * 
-		 * System.out.println("KEY: "+entry.getKey());
-		 * System.out.println("VALUE: "+entry.getValue()); }
-		 */
-		   
-		
-		
-		
->>>>>>> a4d0a0cc2ccb7bfd1b8ec41f300c009908298b03
 
 	}
 
