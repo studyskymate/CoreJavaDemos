@@ -9,7 +9,6 @@ public class TestCustom {
 	
 	public static void main(String[] args) {
 		TestCustom t=new TestCustom();
-     
 		try {
 			t.display();
 		} catch (CustomEx e) {
