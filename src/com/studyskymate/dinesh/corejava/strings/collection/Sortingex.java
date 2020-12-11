@@ -32,15 +32,17 @@ public class Sortingex {
 		}
 
 		System.out.println("**************************");
-		Set<Integer> set = new HashSet<Integer>();
-
+		
+	Set<Integer> set = new HashSet<Integer>();
 		set.add(1001);
 		set.add(1001);
 		set.add(1002);
 		set.add(null);
 		set.add(null);
 		set.add(1003);
-
+       System.out.println("set:="+set);
+		
+		
 		Iterator<Integer> itr1 = set.iterator();
 
 		while (itr1.hasNext()) {
