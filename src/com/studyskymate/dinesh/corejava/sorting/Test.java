@@ -15,9 +15,9 @@ public class Test {
 		list.add(new Employee(3,"B",17));
 		list.add(new Employee(5,"A",16));
 
-		Collections.sort(list,Collections.reverseOrder());
+		Collections.sort(list);
 		
-		list.forEach(System.out::print);
+		list.forEach(System.out::println);
 		
 	}
 

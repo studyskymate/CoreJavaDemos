@@ -50,7 +50,7 @@ public class Care {
 
 		
 		Thread t = new Thread(r);
-		Thread t2 = new Thread(r);
+		Thread t2 = new Thread(r2);
 		
 		t.start();
 

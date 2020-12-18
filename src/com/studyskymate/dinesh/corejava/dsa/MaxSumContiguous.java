@@ -19,10 +19,11 @@ public class MaxSumContiguous {
         for (Integer i:arr) 
         { 
             currentMax = currentMax + i; 
-            if (maximum < currentMax) 
-                maximum = currentMax; 
+            
             if (currentMax < 0) 
                 currentMax = 0; 
+            if (maximum < currentMax) 
+                maximum = currentMax;
         } 
         
 		System.out.println("maximum:" +maximum);

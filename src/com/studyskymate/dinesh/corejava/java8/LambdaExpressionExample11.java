@@ -2,6 +2,7 @@ package com.studyskymate.dinesh.corejava.java8;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.StringJoiner;
 import java.util.stream.Collector;
@@ -12,13 +13,18 @@ public class LambdaExpressionExample11 {
 
 	public static void main(String[] args) {
 		List<Product> list = new ArrayList<Product>();
-		list.add(new Product(1, "Samsung A5", 17000f));
+		list.add(new Product(1, "A Samsung A5", 17000f));
 		list.add(new Product(3, "Iphone 6S", 65000f));
 		list.add(new Product(2, "Sony Xperia", 25000f));
 		list.add(new Product(4, "Nokia Lumia", 15000f));
 		list.add(new Product(5, "Redmi4 ", 26000f));
 		list.add(new Product(6, "Lenevo Vibe", 19000f));
-		list.add(new Product(7, "Lenevo Vibe", 19000f));
+		list.add(new Product(7, "Z enevo Vibe", 19000f));
+		
+		Comparator<Product> c3=(Product p1,Product p2)->{return p1.name.compareTo(p2.name);};
+		list.sort(c3);
+		Collections.sort(list, c3.reversed());
+		list.forEach(p->System.out.println(p.name));
 		
 		Stream<Product> s =list.stream().filter(p->p.price>1000);
 		s.forEach(p->System.out.println(p.id));
