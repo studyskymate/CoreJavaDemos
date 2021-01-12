@@ -10,7 +10,7 @@ public class LinkedListPoll {
 		// adding elements
 		list.add("Geeks");
 		list.add(4);
-		list.add("Geeks");
+		list.add("Geeks2");
 		list.add(8);
 
 		// printing the list
