@@ -12,6 +12,7 @@ import java.util.stream.Stream;
 public class LambdaExpressionExample11 {
 
 	public static void main(String[] args) {
+		
 		List<Product> list = new ArrayList<Product>();
 		list.add(new Product(1, "A Samsung A5", 17000f));
 		list.add(new Product(3, "Iphone 6S", 65000f));
